@@ -1,0 +1,44 @@
+/* Display flex */
+ /* Torna o elemento um flex container automaticamente transformando todos os seus filhos diretos em flex itens. */
+
+.flex {
+    display: flex;
+}
+
+
+/* O flex-wrap quebra os elementos filhos para caberem dentro do elemento pai, iniciando uma nova linha abaixo */
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+/* A sintax flex: 1 define que todos os elementos filhos tenham o mesmo tamanho com base no elemento pais */
+.flex-item-1{
+    flex: 1;
+}
+
+
+
+/* flex item */
+.item {
+    margin: 5px;
+    background: tomato;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    border:  1px solid #ccc;
+}
+
+h1 {
+    text-align: center;
+    max-width: 20px 0 0 0;
+    font-size: 1.25rem;
+    font-weight: normal;
+}
+body {
+    color: #333;
+}
+

@@ -1,0 +1,40 @@
+.wrap-reverse {
+    /* Quebra a linha assim que um dos flex itens não puder mais ser compactado. A quebra é na direção contrária, ou seja para a linha acima. */
+    flex-wrap: wrap-reverse
+}
+
+.wrap {
+    /* Quebra a linha assim que um dos flex itens não puder mais ser compactado. */
+    flex-wrap: wrap;
+}
+
+.nowrap{
+    /* Valor padrão, não permite a quebra de linha. */
+    flex-wrap: nowrap;
+}
+.container {
+    max-width: 360px;
+    margin: 0 auto;
+    display: flex;
+    border: 1px solid #ccc;
+}
+
+.item {
+    flex: 1;
+    margin: 5px;
+    background-color: green;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 1.5rem;
+    text-align: center;
+    max-width: 20px 0 0 0;
+}
+
+body {
+    font-family: monospace;
+    color: #333;
+}
